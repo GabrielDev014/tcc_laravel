@@ -29,7 +29,7 @@ class EmpresasController extends Controller
         
         $inicio = microtime(true);
 
-        $caminhoArquivo = storage_path('app/empresasTeste.txt');
+        $caminhoArquivo = storage_path('app/empresas.txt');
 
         $leituraArquivo = fopen($caminhoArquivo, "r");
 
